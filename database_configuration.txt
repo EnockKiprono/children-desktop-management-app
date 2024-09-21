@@ -1,0 +1,28 @@
+#childrens home database creation guide
+#start mysql and python
+#use xampp console cmd at the top-right of the xampp interface
+
+#database=1 (children)
+#tables=4 (childrenDatabase, posts, users, admin)
+
+server="localhost";
+user="root";
+password="emmy"; #password can be changed
+database="children";
+
+#database and tables creation, copy paste in this order beginning from create database children.
+
+
+create database children;
+use children;
+create table childrenDatabase (id INT(100) NOT NULL auto_increment, parent_guardian VARCHAR(100) NOT NULL, child_name VARCHAR(100) NOT NULL, child_age VARCHAR(100) NOT NULL, date_of_birth VARCHAR(100) NOT NULL, gender VARCHAR(100) NOT NULL, guardian_contact INT(100) NOT NULL, location_address VARCHAR(100) NOT NULL, disbursement VARCHAR(100) NOT NULL, cc_number longblob NOT NULL, profile BlOB, date datetime NOT NULL, PRIMARY KEY(ID));
+
+create table posts (ID INT(100) NOT NULL AUTO_INCREMENT, postdesc longblob NOT NULL, date datetime NOT NULL, PRIMARY KEY(ID));
+
+create table users (ID INT(100) NOT NULL AUTO_INCREMENT, username VARCHAR(100) NOT NULL, password VARCHAR(100) NOT NULL, date datetime NOT NULL, PRIMARY KEY(ID));
+
+create table admin (ID INT(100) NOT NULL AUTO_INCREMENT, username VARCHAR(100) NOT NULL, password VARCHAR(100) NOT NULL, PRIMARY KEY(ID));
+
+show tables;
+describe childrenDatabase;
+select * from childrenDatabase;

@@ -1,0 +1,4 @@
+(	ID,	Parent/guardian,	Child_name,	Child_age,	Date_of_birth,	gender,	Guardian_contact,	Location_address,	disbursement,	Credit_card_number,	Profile_picture,	Date_registered,	)	
+[(2, 'millicent awuor', 'mercry mwende', '3', '01/01/2002', 'female', 70000000, 'makueni', 'Disbursed', b'3454354353', b'/home/enock/Desktop/Enock/facebook/FB_IMG_16409233592870987.jpg', datetime.datetime(2023, 4, 5, 23, 39, 56))]
+(	ID,	Parent/guardian,	Child_name,	Child_age,	Date_of_birth,	gender,	Guardian_contact,	Location_address,	disbursement,	Credit_card_number,	Profile_picture,	Date_registered,	)	
+[(2, 'millicent awuor', 'mercry mwende', '3', '01/01/2002', 'female', 70000000, 'makueni', 'Disbursed', b'3454354353', b'/home/enock/Desktop/Enock/facebook/FB_IMG_16409233592870987.jpg', datetime.datetime(2023, 4, 5, 23, 39, 56))]
